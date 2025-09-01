@@ -1,0 +1,32 @@
+.wc-btn {
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000;
+  padding: 12px 20px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+}
+
+.wc-btn:hover {
+  background-color: #128c7e;
+  color: #ffffff;
+}
+
+.wc-left {
+  left: 20px;
+}
+
+.wc-right {
+  right: 20px;
+}
+
+.wc-btn img {
+  width: 32px;
+  height: 32px;
+}
